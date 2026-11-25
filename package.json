@@ -1,0 +1,16 @@
+{
+  "name": "aviral-infratech-web",
+  "version": "1.0.0",
+  "description": "Aviral Infratech Pvt. Ltd. — Lucknow Airport Corridor Lands, Plot Plans & Site Reels Showcase (MERN-Ready Frontend)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "real-estate",
+    "lucknow-plots",
+    "aviral-infratech",
+    "mern-ready"
+  ],
+  "license": "MIT"
+}

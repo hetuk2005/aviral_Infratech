@@ -1,0 +1,48 @@
+:root {
+  /* Brand & Surface Palette */
+  --bg-ivory: #FAF7F2;
+  --bg-ivory-alt: #F3EDE4;
+  --bg-white: #FFFFFF;
+  --bg-dark: #0F1722;
+  --bg-dark-elevated: #172130;
+  --bg-dark-card: #1E293B;
+
+  /* Aviral Infratech Signature Accents */
+  --brand-orange: #EA580C;
+  --brand-orange-hover: #C2410C;
+  --brand-orange-soft: #FFF1E8;
+  --brand-orange-border: rgba(234, 88, 12, 0.28);
+  --brand-emerald: #0F766E;
+  --brand-emerald-soft: #CCFBF1;
+  --brand-gold: #D97706;
+
+  /* Typography Colors */
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+  --text-on-dark: #F9FAFB;
+  --text-on-dark-muted: #CBD5E1;
+
+  /* Borders & Shadows */
+  --border-light: #E5DED3;
+  --border-dark: rgba(255, 255, 255, 0.12);
+  --shadow-sm: 0 2px 8px rgba(17, 24, 39, 0.05);
+  --shadow-md: 0 12px 32px rgba(17, 24, 39, 0.08);
+  --shadow-lg: 0 24px 56px rgba(15, 23, 34, 0.16);
+  --shadow-orange: 0 12px 28px rgba(234, 88, 12, 0.28);
+
+  /* Typography */
+  --font-display: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* Layout & Radii */
+  --container-max: 1240px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
