@@ -12,8 +12,8 @@ window.AVIRAL_DATA = {
 
   lands: [
     {
-      _id: 'aviral-enclave-banthra',
-      name: 'Aviral Enclave — Banthra',
+      _id: 'aura-city',
+      name: 'Aura City',
       location: 'Banthra, Khasarwara, Lucknow 226401',
       category: ['airport', 'ready', 'residential'],
       status: 'Ready for Registry',
@@ -22,62 +22,45 @@ window.AVIRAL_DATA = {
       plotRange: '526 – 2,400 sq.ft.',
       roadWidth: '25 ft. Blacktop',
       totalPlots: 79,
-      ratePerSqft: 1450,
+      ratePerSqft: 1999,
       image: 'assets/images/entrance-gate.jpg',
       summary:
         'Flagship gated residential township just 2 km off Lucknow–Kanpur Road near Junab Ganj Tiraha. Features precast boundary walls, yellow-black kerbs, street lights & immediate registry.',
       highlights: ['79 Demarcated Plots', '25 ft. Internal Roads', 'Gated Entry & Guard Cabin', 'Immediate Possession']
     },
     {
-      _id: 'aviral-airport-greens',
-      name: 'Aviral Airport Greens',
+      _id: 'aviral-city',
+      name: 'Aviral City',
       location: 'Amausi – Kanpur Road Corridor, Lucknow',
-      category: ['airport', 'residential'],
+      category: ['airport', 'highway', 'residential'],
       status: 'Fast Selling',
       airportDistance: '8 Min from Airport',
       totalArea: '95,000 sq.ft.',
       plotRange: '800 – 2,000 sq.ft.',
       roadWidth: '25 – 30 ft. Roads',
       totalPlots: 64,
-      ratePerSqft: 1650,
+      ratePerSqft: 1999,
       image: 'assets/images/hero-township.jpg',
       summary:
         'Low-density green plotted community engineered for frequent flyers and families seeking quick access to C.C.S. International Airport, Metro corridor & schools.',
       highlights: ['8 Min Airport Drive', 'Dedicated Green Park', 'Underground Drainage', 'Bank Loan Assistance']
     },
     {
-      _id: 'aviral-highway-vista',
-      name: 'Aviral Highway Vista',
-      location: 'Kanpur–Raebareli Link Marg, Junab Ganj',
+      _id: 'prasad-uni-site',
+      name: 'Prasad Uni Site',
+      location: 'Near Prasad University, Kanpur–Raebareli Link Marg',
       category: ['highway', 'commercial', 'ready'],
-      status: 'New Phase Open',
-      airportDistance: '11 Min from Airport',
+      status: 'Prime Highway Front',
+      airportDistance: '9 Min from Airport',
       totalArea: '1,10,000 sq.ft.',
       plotRange: '700 – 2,400 sq.ft.',
       roadWidth: '25 ft. Wide Road',
       totalPlots: 68,
-      ratePerSqft: 1525,
+      ratePerSqft: 2499,
       image: 'assets/images/aerial-plots.jpg',
       summary:
-        'High-appreciation residential & semi-commercial plots located 2 minutes from Prasad University and 5 minutes from D-Mart along the fast-growing Link Marg.',
+        'High-appreciation residential & semi-commercial plots located right near Prasad University and 5 minutes from D-Mart along the fast-growing Link Marg.',
       highlights: ['Corner Commercial Units', '2 Min Prasad University', '5 Min D-Mart', 'Clear Freehold Title']
-    },
-    {
-      _id: 'aviral-ashiyana-extension',
-      name: 'Aviral Ashiyana Extension',
-      location: 'Near Kanpur Road Sector, Lucknow',
-      category: ['highway', 'commercial', 'residential'],
-      status: 'Limited Corner Plots',
-      airportDistance: '12 Min from Airport',
-      totalArea: '82,000 sq.ft.',
-      plotRange: '1,000 – 2,500 sq.ft.',
-      roadWidth: '25 ft. Paved Road',
-      totalPlots: 48,
-      ratePerSqft: 1750,
-      image: 'assets/images/road-corridor.jpg',
-      summary:
-        'Spacious villa-sized & duplex plots crafted for custom independent homes with wide paved frontage, plantation avenues & 24×7 gated security.',
-      highlights: ['Duplex Villa Dimensions', 'Two-Side Open Corners', '24×7 Security Gate', 'Zero Hidden Charges']
     }
   ],
 
@@ -239,9 +222,9 @@ window.AVIRAL_DATA = {
       tag: 'Airport Drive',
       duration: '0:42',
       views: '18.4K views',
-      title: '10-Min Drive from Lucknow Airport to Aviral Enclave',
+      title: '10-Min Drive from Lucknow Airport to Aura City',
       caption: 'Live route showcase from C.C.S. Airport terminal via Kanpur Road & Junab Ganj Tiraha to Banthra.',
-      project: 'Aviral Enclave — Banthra',
+      project: 'Aura City • ₹1,999/sq.ft.',
       image: 'assets/images/reel-airport-corridor.jpg'
     },
     {
@@ -252,7 +235,7 @@ window.AVIRAL_DATA = {
       views: '24.1K views',
       title: '1,25,023 Sq.Ft. Gated Township Aerial Drone Tour',
       caption: 'Full bird’s-eye tour of 79 demarcated plots, boundary walls, and intersecting 25 ft. roads.',
-      project: 'Aviral Enclave — Banthra',
+      project: 'Aviral City • ₹1,999/sq.ft.',
       image: 'assets/images/hero-township.jpg'
     },
     {
@@ -263,7 +246,7 @@ window.AVIRAL_DATA = {
       views: '12.9K views',
       title: 'Main Entrance Archway & 25 Ft. Blacktop Road Quality',
       caption: 'Walkthrough of our grand steel-and-orange security gate, yellow-black kerbs & street light poles.',
-      project: 'Aviral Airport Greens',
+      project: 'Aviral City • ₹1,999/sq.ft.',
       image: 'assets/images/entrance-gate.jpg'
     },
     {
@@ -273,8 +256,8 @@ window.AVIRAL_DATA = {
       duration: '0:48',
       views: '15.2K views',
       title: 'Happy Families Inspecting Ready Corner Plots',
-      caption: 'Weekend site visit highlights with plot boundary marking and on-spot plan consultation.',
-      project: 'Aviral Ashiyana Extension',
+      caption: 'Weekend site visit highlights near Prasad University with plot boundary marking and on-spot plan consultation.',
+      project: 'Prasad Uni Site • ₹2,499/sq.ft.',
       image: 'assets/images/reel-site-visit.jpg'
     }
   ],

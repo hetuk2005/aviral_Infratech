@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const modalForm = document.getElementById('modalInquiryForm');
   const modalToast = document.getElementById('modalToast');
 
-  function openInquiryModal(prefillText = 'Aviral Enclave — Banthra Site Visit') {
+  function openInquiryModal(prefillText = 'Aura City / Aviral City Site Visit') {
     modalInterest.value = prefillText;
     modalToast.classList.remove('visible');
     inquiryModal.classList.add('open');

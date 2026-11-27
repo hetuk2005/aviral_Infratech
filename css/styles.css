@@ -614,8 +614,8 @@ a {
 /* Lands Grid */
 .lands-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.75rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .land-card {
@@ -1605,6 +1605,7 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .lands-grid,
   .plans-grid {
     grid-template-columns: repeat(2, 1fr);
   }

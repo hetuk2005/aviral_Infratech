@@ -8,8 +8,7 @@ window.AVIRAL_CONFIG = {
   USE_REMOTE_API: false,
   API_BASE_URL: 'http://localhost:5000/api',
   CONTACT: {
-    phonePrimary: '+91 72340 00088',
-    phoneSecondary: '+91 70806 66665',
+    phonePrimary: '+91 63927 71476',
     corporateOffice: 'CP-1, Sector - H, LDA Colony, Ashiyana, Lucknow',
     siteOffice: 'Banthra, Khasarwara, Lucknow 226401',
     email: 'info@aviralinfratech.com',

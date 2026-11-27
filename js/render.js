@@ -62,12 +62,12 @@ window.AviralRender = (() => {
             </div>
             <div class="land-footer">
               <div class="land-price-hint">
-                <span>Indicative Starting Rate</span>
+                <span>Site Price</span>
                 <strong>₹${land.ratePerSqft.toLocaleString('en-IN')} / sq.ft.</strong>
               </div>
               <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
                 <a href="#layout" class="btn btn-outline btn-sm" data-select-project="${land._id}">Layout</a>
-                <button type="button" class="btn btn-primary btn-sm" data-inquire-land="${land.name}">Book Visit</button>
+                <button type="button" class="btn btn-primary btn-sm" data-inquire-land="${land.name} (₹${land.ratePerSqft.toLocaleString('en-IN')}/sq.ft.)">Book Visit</button>
               </div>
             </div>
           </div>
@@ -156,10 +156,10 @@ window.AviralRender = (() => {
     const statusColor =
       plot.status === 'booked' ? '#6B7280' : plot.status === 'corner' ? '#EA580C' : '#0F766E';
 
-    const approxEstimate = formatINR(plot.area * 1450);
+    const approxEstimate = formatINR(plot.area * 1999);
 
     container.innerHTML = `
-      <span class="eyebrow" style="margin-bottom:0.65rem;">Aviral Enclave • Plot Inspector</span>
+      <span class="eyebrow" style="margin-bottom:0.65rem;">Aura City / Aviral City • Plot Inspector</span>
       <h3 style="font-family:var(--font-display); font-size:1.55rem;">Plot #${plot.id}</h3>
       <p style="font-size:0.88rem; font-weight:700; color:${statusColor}; margin-top:0.2rem;">● ${statusLabel}</p>
 
